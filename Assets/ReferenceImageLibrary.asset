@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4635420163995848160
+  m_GuidHigh: 6053782357261685674
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5616848090200176050
+      m_GuidHigh: 15376930215179713668
+    m_SerializedTextureGuid:
+      m_GuidLow: 991959442123122047
+      m_GuidHigh: 3418663168442447545
+    m_Size: {x: 1.16, y: 0.71840596}
+    m_SpecifySize: 1
+    m_Name: Card
+    m_Texture: {fileID: 2800000, guid: 6357e57f25db0dc4b936b9f10988712f, type: 3}
