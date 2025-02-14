@@ -136,6 +136,9 @@ GameObject:
   - component: {fileID: 168692925}
   - component: {fileID: 168692927}
   - component: {fileID: 168692926}
+  - component: {fileID: 168692930}
+  - component: {fileID: 168692929}
+  - component: {fileID: 168692928}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -220,7 +223,6 @@ MonoBehaviour:
   canvas: {fileID: 2109238869}
   infoBox: {fileID: 1803894501}
   rawImage: {fileID: 1433473251}
-  physicsPrefab: {fileID: 8502781570778184690, guid: a1153b2bf7517304a8f65b7f2d4aff65, type: 3}
 --- !u!114 &168692927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,6 +237,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ArPrefabs:
   - {fileID: 2087851606725637219, guid: bc6b52746ec6ddc4cb852e9f910e6480, type: 3}
+--- !u!114 &168692928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168692922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70043d6c0e55faa4ca0d3dc178203c41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placedPrefab: {fileID: 162333779020252104, guid: 05c157b4f120fee47949c0b5b8676b34, type: 3}
+  lookAtCamera: 1
+--- !u!114 &168692929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168692922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RaycastPrefab: {fileID: 0}
+--- !u!114 &168692930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168692922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlanePrefab: {fileID: 7305461673351222902, guid: 93fab8bf4cef75e449f92f171851401c, type: 3}
+  m_DetectionMode: 1
 --- !u!1 &262642771
 GameObject:
   m_ObjectHideFlags: 0
